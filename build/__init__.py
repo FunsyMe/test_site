@@ -9,6 +9,3 @@ def test_site():
 @app.errorhandler(404)
 def page_not_found(e):
     return 'Страница не существует или она удалена', 404
-
-if __name__ == '__main__':
-    app.run()
