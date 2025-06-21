@@ -1,5 +1,5 @@
 from flask import Flask
-from databaser import Database
+from .databaser import Database
 
 app = Flask(__name__)
 db = Database(__name__)
