@@ -2,7 +2,7 @@ from flask import Flask
 from .databaser import Database
 
 app = Flask(__name__)
-db = Database(__name__)
+db = Database()
 err = 0;
 
 @app.route('/')
